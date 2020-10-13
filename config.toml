@@ -1,0 +1,4 @@
+baseURL = "https://weizhudesign.github.io/hugosite/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "liva"
