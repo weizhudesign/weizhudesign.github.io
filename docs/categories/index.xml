@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
+    <title>Categories on Liva | Personal blog template</title>
     <link>https://weizhudesign.github.io/hugosite/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <description>Recent content in Categories on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://weizhudesign.github.io/hugosite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/hugosite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android And Gaming</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/android-and-gaming/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/android-and-gaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go Language</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/go-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML &amp; CSS</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/html-css/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/html-css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Language</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/programming-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/programming-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://weizhudesign.github.io/hugosite/categories/web-design/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://weizhudesign.github.io/hugosite/categories/web-design/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
