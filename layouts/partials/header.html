@@ -2,28 +2,25 @@
 <header class="navigation">
   <div class="container">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
-          src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}">
+        {{ .Site.Title }}
+      </a>
+         
+      <div class="desktop-view">
+        <div class="navbar-nav mr-auto">
+          <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"> 
+            {{ .Site.Title }}
+          </a>
+        </div>
+      </div>
+      
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
       </button>
 
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <div class="desktop-view">
-          <ul class="navbar-nav mr-auto">
-            {{ range .Site.Params.social }}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-
-        <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
-            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
-
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mx-auto">
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -68,3 +65,11 @@
   </div>
 </header>
 {{ "<!-- /navigation -->" | safeHTML }}
+
+
+
+        <!-- {{ range .Site.Params.social }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+        </li>
+        {{ end }} -->

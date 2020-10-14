@@ -1,6 +1,6 @@
 ---
 title: "Get In Touch"
-date: 2019-10-29T13:49:23+06:00
+date: 2020-10-14
 draft: false
 
 # meta description
@@ -10,4 +10,15 @@ description: "this is meta description"
 type : "contact"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+<div class="gallery" data-columns="4">
+	<img src="{{site.baseurl}}/images/contact/pattern1.png">
+	<img src="{{site.baseurl}}/images/contact/pattern2.png">
+	<img src="{{site.baseurl}}/images/contact/pattern3.png">
+	<img src="{{site.baseurl}}/images/contact/pattern4.png">
+</div>
+
+I could provide professional illustration, graphic design, web design and related service.
+
+I am also happy to provide drawing or painting tutoring course.
+
+Please do not hesitate to contact me.

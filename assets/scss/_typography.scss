@@ -1,5 +1,6 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 body {
   line-height: 1.2;
@@ -9,12 +10,12 @@ body {
   color: $text-color;
 }
 
-p, .paragraph {
+p, .paragraph,.copyright {
   font-weight: 400;
   color: $text-color;
   font-size: 15px;
   line-height: 1.7;
-  font-family: $primary-font;
+  font-family: $secondary-font;
 }
 
 h1,h2,h3,h4,h5,h6 {

@@ -4,7 +4,7 @@ date: 2019-10-29T13:49:23+06:00
 draft: false
 
 # image
-image: "images/author.jpg"
+image: "images/author.png"
 
 # meta description
 description: "this is meta description"
@@ -13,8 +13,7 @@ description: "this is meta description"
 type : "about"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+Professional visual designer with more than 4 years of experience in art and design, including:  
+**Website design**, **Illustration**, **Graphic design**, **Ceramic art**;  
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+Junior level in systems administration, proficient with Linux OS and capable of handling IT infrastructure work. 

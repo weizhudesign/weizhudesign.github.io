@@ -1,4 +1,4 @@
-<div class="col-md-6 mb-4">
+<div class="col-md-3 mb-4">
     <article class="card">
         {{ if .Params.Image }}
         <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
@@ -20,4 +20,5 @@
         <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
         </div>
     </article>
+    
 </div>

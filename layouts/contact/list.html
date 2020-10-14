@@ -1,14 +1,39 @@
 {{ define "main" }}
 
-<section class="section-sm pb-0">
+{{ if .Site.Data.gallery.enable }}
+    {{ with .Site.Data.gallery }}
+    <section>
+      <div class="container">
+        <!-- <div class="text-center">
+          <h4 class="widget-title">My Gallery</h4>
+        </div> -->
+        <div class="row pt-4 text-center">
+          {{ range .gallery }}
+          <div class="col-sm-3 col-3">
+            <a href="{{ .image | absURL}}" class="venobox" data-gall="gallery"><img class="img-fluid w-100"
+                src="{{ .image | absURL}}" alt=""></a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    {{ end }}
+    {{ end }}
+
+<section class="section-sm pb-4">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8 text-center">
-        <h2>{{ .Title | markdownify }}</h2>
-        <div class="content mb-4">
+        <h2 class="pb-4">{{ .Title | markdownify }}</h2>
+        <div class="content pb-4 mb-4">
           {{ .Content }}
         </div>
-        <div class="row">
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- <div class="row">
           <div class="col-lg-4 small-post-border">
             <i class="ti-mobile h1 text-primary"></i>
             <h5 class="font-weight-light my-3">Phone</h5>
@@ -24,13 +49,9 @@
             <h5 class="font-weight-light my-3">Location</h5>
             {{ .Site.Params.location | markdownify }}
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+        </div> -->
 
-
+<!-- 
 <section class="section-sm pb-0">
   <div class="container">
     <div class="row justify-content-center">
@@ -56,6 +77,6 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 {{ end }}

@@ -1,4 +1,4 @@
-{{ if .Site.Params.newsletter.enable }}
+<!-- {{ if .Site.Params.newsletter.enable }}
 <section class="section-sm">
   <div class="container">
     <div class="row">
@@ -18,15 +18,12 @@
     </div>
   </div>
 </section>
-{{ end }}
+{{ end }} -->
 
 <footer>
-  <div class="container">
+  <div class="container text-center pt-4 mt-4 border-top">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
+      <div class="col-lg-3 col-sm-6 mb-5 text-left">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
           <li class="mb-3"><a class="text-dark" href="tel:{{ .Site.Params.mobile }}"><i
@@ -51,15 +48,17 @@
         {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
         <ul class="list-unstyled">
           {{- range $name, $items := .Site.Taxonomies.categories }}
-          <li class="mb-3"><a class="text-dark"
-              href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a>
+          <li class="mb-3">
+            <a class="text-dark" href="{{ `categories/` | relLangURL }}{{ $name | urlize | lower }}">
+              {{ $name | title | humanize }}
+            </a>
           </li>
           {{- end }}
         </ul>
         {{- end }}
         {{- end }}
       </div>
-      <div class="col-lg-3 col-sm-6 mb-5">
+      <div class="col-lg-3 col-sm-6 mb-5 text-right">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
@@ -67,7 +66,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 border-top py-4 text-center">
+      <div class="col-12 border-top py-4 copyright">
         {{ .Site.Params.copyright | markdownify }}
       </div>
     </div>
