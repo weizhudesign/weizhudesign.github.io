@@ -13,7 +13,7 @@ description: "this is meta description"
 type : "about"
 ---
 
-Professional visual designer with more than 4 years of experience in art and design, including:  
+>Professional visual designer with more than 4 years of experience in art and design, including:  
 **Website design**, **Illustration**, **Graphic design**, **Ceramic art**;  
 
-Junior level in systems administration, proficient with Linux OS and capable of handling IT infrastructure work. 
+>Junior level in systems administration, proficient with Linux OS and capable of handling IT infrastructure work. 
