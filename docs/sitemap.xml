@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://weizhudesign.github.io/hugosite/contact/</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://weizhudesign.github.io/hugosite/</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://weizhudesign.github.io/hugosite/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
@@ -13,23 +23,8 @@
   </url>
   
   <url>
-    <loc>https://weizhudesign.github.io/hugosite/contact/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://weizhudesign.github.io/hugosite/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/android-and-gaming/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
@@ -39,11 +34,6 @@
   
   <url>
     <loc>https://weizhudesign.github.io/hugosite/tags/game/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/go-language/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -64,11 +54,6 @@
   
   <url>
     <loc>https://weizhudesign.github.io/hugosite/blog/post-12/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/blog/post-13/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -118,12 +103,7 @@
   </url>
   
   <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/html-css/</loc>
+    <loc>https://weizhudesign.github.io/hugosite/categories/illustration/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -138,17 +118,7 @@
   </url>
   
   <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/programming-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://weizhudesign.github.io/hugosite/tags/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/python/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -159,11 +129,6 @@
   
   <url>
     <loc>https://weizhudesign.github.io/hugosite/tags/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://weizhudesign.github.io/hugosite/categories/web-design/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
