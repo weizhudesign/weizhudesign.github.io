@@ -16,4 +16,6 @@ type : "about"
 >Professional visual designer with more than 4 years of experience in art and design, including:  
 **Website design**, **Illustration**, **Graphic design**, **Ceramic art**;  
 
->**Client**: [HKU The Centre for Information Technology in Education (CITE)](https://web.hku.hk/~yuanhua/cite/) [Huang Lab @ HKU](https://web.hku.hk/~yuanhua/)
+>**Client**: 
+[HKU The Centre for Information Technology in Education (CITE)](https://web.hku.hk/~yuanhua/cite/) 
+[Huang Lab @ HKU](https://web.hku.hk/~yuanhua/)
