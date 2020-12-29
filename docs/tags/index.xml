@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on WeiZhuDesign</title>
-    <link>https://weizhudesign.github.io/hugosite/tags/</link>
+    <link>https://weizhudesign.github.io/tags/</link>
     <description>Recent content in Tags on WeiZhuDesign</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/hugosite/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/game/</link>
+      <link>https://weizhudesign.github.io/tags/game/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/game/</guid>
+      <guid>https://weizhudesign.github.io/tags/game/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/html/</link>
+      <link>https://weizhudesign.github.io/tags/html/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/html/</guid>
+      <guid>https://weizhudesign.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/new/</link>
+      <link>https://weizhudesign.github.io/tags/new/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/new/</guid>
+      <guid>https://weizhudesign.github.io/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/photos/</link>
+      <link>https://weizhudesign.github.io/tags/photos/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/photos/</guid>
+      <guid>https://weizhudesign.github.io/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/python/</link>
+      <link>https://weizhudesign.github.io/tags/python/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/python/</guid>
+      <guid>https://weizhudesign.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://weizhudesign.github.io/hugosite/tags/react/</link>
+      <link>https://weizhudesign.github.io/tags/react/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/tags/react/</guid>
+      <guid>https://weizhudesign.github.io/tags/react/</guid>
       <description></description>
     </item>
     

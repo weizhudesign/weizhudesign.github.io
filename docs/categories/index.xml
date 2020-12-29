@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on WeiZhuDesign</title>
-    <link>https://weizhudesign.github.io/hugosite/categories/</link>
+    <link>https://weizhudesign.github.io/categories/</link>
     <description>Recent content in Categories on WeiZhuDesign</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/hugosite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Illustration</title>
-      <link>https://weizhudesign.github.io/hugosite/categories/illustration/</link>
+      <link>https://weizhudesign.github.io/categories/illustration/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://weizhudesign.github.io/hugosite/categories/illustration/</guid>
+      <guid>https://weizhudesign.github.io/categories/illustration/</guid>
       <description></description>
     </item>
     
