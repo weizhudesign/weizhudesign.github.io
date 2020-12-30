@@ -17,8 +17,6 @@ type : "contact"
 	<img src="{{site.baseurl}}/images/contact/pattern4.png">
 </div>
 
-I could provide professional illustration, graphic design, web design and related service.
-
-I am also happy to provide drawing or painting tutoring course.
+I provide professional web design, graphic design, illustration and related service.
 
 Please do not hesitate to contact me.
