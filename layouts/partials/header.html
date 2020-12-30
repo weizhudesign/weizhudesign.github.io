@@ -3,14 +3,26 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
-      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}">
+      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}" style="font-size: 1.5em;">
+        {{ if .Site.Params.logo }}
+        <img src="{{ .Site.Params.logo | absURL }}" width="100" height="auto" class="d-inline-block align-top"
+          alt="{{ .Site.Title }}">
+       <span class="ml-3">{{ .Site.Title }}</span>
+        {{ else }}
         {{ .Site.Title }}
+        {{ end }}
       </a>
          
       <div class="desktop-view">
         <div class="navbar-nav mr-auto">
-          <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"> 
+          <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}" style="font-size: 1.8em; display: flex;
+          align-items: center;"> 
+            {{ if .Site.Params.logo }}
+            <img src="{{ .Site.Params.logo | absURL }}" width="120" height="auto" class="d-inline-block align-top" alt="{{ .Site.Title }}">
+            <span class="ml-3">{{ .Site.Title }}</span>
+            {{ else }}
             {{ .Site.Title }}
+            {{ end }}
           </a>
         </div>
       </div>

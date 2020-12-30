@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website Design on WeiZhuDesign</title>
+    <link>https://weizhudesign.github.io/categories/website-design/</link>
+    <description>Recent content in Website Design on WeiZhuDesign</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://weizhudesign.github.io/categories/website-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Centre for Information Technology in Education (HKU) Website | Work in Progress</title>
+      <link>https://weizhudesign.github.io/blog/18-cite/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://weizhudesign.github.io/blog/18-cite/</guid>
+      <description>Coding For Community
+I was employed by The Centre for Information Technology in Education (CITE) in the University of Hong Kong for their webiste building and designing.</description>
+    </item>
+    
+    <item>
+      <title>Website Designeb for Hung Lab</title>
+      <link>https://weizhudesign.github.io/blog/17-huang-lab/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://weizhudesign.github.io/blog/17-huang-lab/</guid>
+      <description>Huang Lab
+Commissioned by private client from The medical department in University of Hong Kong.</description>
+    </item>
+    
+  </channel>
+</rss>

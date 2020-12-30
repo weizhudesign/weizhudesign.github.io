@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "WeiZhuDesign"
 theme = "liva"
 publishDir = "docs"
-summaryLength = "24"
+summaryLength = "10"
 paginate = 12
 disqusShortname = ""
 
@@ -52,7 +52,7 @@ disqusShortname = ""
   weight = 1
 
   [[menu.main]]
-  name = "Blog"
+  name = "Works"
   URL = "blog"
   weight = 2
 
@@ -69,7 +69,7 @@ disqusShortname = ""
   weight = 1
 
   [[menu.footer]]
-  name = "Post"
+  name = "Works"
   URL = "blog"
   weight = 2
 
@@ -85,13 +85,14 @@ home = "Home"
 # Meta data
 description = "This is meta description"
 author = "WeiZhuDesign"
+logo = "images/site-logo.png"
 
 # Contact Information
 mobile = "+852 52260730"
 email = "wei.zhu@network.rca.ac.uk"
 location = "Hong Kong"
 # copyright
-copyright = "copyright &copy; 2020 [WeiZhuDesign](https://weizhudesign.github.io/hugosite/) All Rights Reserved  |  Please do not use or reproduce any content without the expressed written consent of Wei Zhu."
+copyright = "Copyright &copy; 2020 [WeiZhuDesign](https://weizhudesign.github.io/hugosite/) All Rights Reserved  |  Please do not use or reproduce any content without the expressed written consent of Wei Zhu."
 
   # Preloader
   [params.preloader]
@@ -112,4 +113,4 @@ content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/weizhudesign"
