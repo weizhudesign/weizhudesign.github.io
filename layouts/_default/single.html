@@ -3,7 +3,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 mx-auto">
+      <div class="col-lg-7 mx-auto">
         {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
           class="text-primary">{{ . | title | humanize }}</a>
