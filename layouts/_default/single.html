@@ -3,7 +3,7 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-6 mx-auto">
         {{ range .Params.Categories }}
         <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"
           class="text-primary">{{ . | title | humanize }}</a>
@@ -24,13 +24,12 @@
 
         <div class="post-content mb-5">
           {{ .Content }}
-          <br>
-          <br>
+
           {{ if .Params.Gallery }}
           {{ range .Params.Gallery }}
-          <div class="col-md-12 mx-auto d-flex justify-content-center">
-            <img src="{{ .pic | absURL }}" class="img-fluid w-50 mb-4" alt="{{ .Title | markdownify }}">
-          </div>
+ 
+              <img src="{{ .pic | absURL }}" class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">
+    
           {{ end }}
           {{ end }}
         </div>
