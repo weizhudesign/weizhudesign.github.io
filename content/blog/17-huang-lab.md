@@ -1,5 +1,5 @@
 ---
-title: "Website Project for Hung Lab"
+title: "Website Project for Huang Lab"
 date: 2020-06-27
 draft: false
 # post thumb

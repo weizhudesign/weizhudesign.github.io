@@ -63,7 +63,7 @@
         float:right
     }
     .slick-slide img{
-        display:block
+        display:block;
     }
     .slick-slide.slick-loading img{
         display:none
@@ -76,8 +76,8 @@
     }
     .slick-vertical .slick-slide{
         display:block;
-        height:auto;
-        border:2px solid transparent
+        height: auto;
+        border:5px solid transparent
     }
     .slick-arrow.slick-hidden{
         display:none

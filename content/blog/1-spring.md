@@ -4,7 +4,7 @@ date: 2018-05-29
 draft: false
 
 # post thumb
-image: "images/1-night-of-spring/cover.jpg"
+image: "images/1-night-of-spring/cover.png"
 gallery:
   - pic: "images/1-night-of-spring/sketch.jpg"
   - pic: "images/1-night-of-spring/1.jpg"

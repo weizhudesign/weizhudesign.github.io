@@ -17,5 +17,5 @@ type : "about"
 **Website design**, **Illustration**, **Graphic design**, **Ceramic art**;  
 
 >**Clients**:  
-[HKU The Centre for Information Technology in Education (CITE)](https://web.hku.hk/~yuanhua/cite/)  
+[HKU The Centre for Information Technology in Education (CITE)](https://web.hku.hk/~yuanhua/cite)  
 [Huang Lab @ HKU](https://web.hku.hk/~yuanhua/)
