@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Me on WeiZhuDesign</title>
+    <title>WeiZhuDesign</title>
     <link>https://weizhudesign.github.io/about/</link>
-    <description>Recent content in About Me on WeiZhuDesign</description>
+    <description>Recent content on WeiZhuDesign</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://weizhudesign.github.io/about/index.xml" rel="self" type="application/rss+xml" />

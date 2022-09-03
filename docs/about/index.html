@@ -111,24 +111,208 @@
         
 
 
-    <section class="section-sm">
+    <section class="section-sm pt-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             
-            <img src="https://weizhudesign.github.io/images/author.png" alt="" class="profile-img img-fluid d-block mx-auto mb-4">
-            
-            <h4 class="widget-title">About Me</h4>
+            <h4 class="widget-title"></h4>
             <div class="content">
-              <blockquote>
-<p>Professional visual designer with more than 4 years of experience in art and design, including:<br>
-<strong>Website design</strong>, <strong>Illustration</strong>, <strong>Graphic design</strong>, <strong>Ceramic art</strong>;</p>
-</blockquote>
-<blockquote>
-<p><strong>Clients</strong>:<br>
-<a href="https://web.hku.hk/~yuanhua/cite">HKU The Centre for Information Technology in Education (CITE)</a><br>
-<a href="https://web.hku.hk/~yuanhua/">Huang Lab @ HKU</a></p>
-</blockquote>
+              <script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <div id="loadingWrapper">
+      <div id="loading"></div>
+    </div>
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/weizhudesign.github.io\/" + 'pdf\/resume_2022_v1.pdf';
+
+var hidePaginator = "true" === "true";
+var hideLoader = "true" === "true";
+var selectedPageNum = parseInt("") || 1;
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/weizhudesign.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d'),
+    paginator = document.getElementById("paginator"),
+    loadingWrapper = document.getElementById('loadingWrapper');
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+      
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = 'none';
+  canvas.style.display = 'block';
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = 'flex';
+  canvas.style.display = 'none';
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = 'block';
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById('page_count').textContent = numPages;
+  
+  
+  if(pageNum > numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
 
             </div>
           </div>
@@ -144,11 +328,9 @@
       <div class="col-lg-3 col-sm-6 mb-5 text-left">
         <h6 class="mb-4">Contact Me</h6>
         <ul class="list-unstyled">
-          <li class="mb-3"><a class="text-dark" href="tel:&#43;852%2052260730"><i
-                class="ti-mobile mr-3 text-primary"></i>&#43;852 52260730</a></li>
           <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Hong Kong</li>
-          <li class="mb-3"><a class="text-dark" href="mailto:wei.zhu@network.rca.ac.uk"><i
-                class="ti-email mr-3 text-primary"></i>wei.zhu@network.rca.ac.uk</a>
+          <li class="mb-3"><a class="text-dark" href="mailto:wzhu66@hku.hk"><i
+                class="ti-email mr-3 text-primary"></i>wzhu66@hku.hk</a>
           </li>
         </ul>
       </div>
